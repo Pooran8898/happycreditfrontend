@@ -1,0 +1,29 @@
+.staticContainer {
+    padding-top: 5vh;
+    padding-left: 5%;
+}
+
+.staticContainer > h1 {
+    font-size: 2.7rem;
+}
+
+.staticContainer > p {
+    font-size: 1.1rem;
+    padding-bottom: 3%;
+}
+
+@media (max-width:600px) {
+    .staticContainer {
+        padding-top: 3vh;
+        padding-left: 5%;
+    }
+    .staticContainer > h1 {
+        font-size: 1.5rem;
+    }
+    
+    .staticContainer > p {
+        font-size: 1.1rem;
+        padding-bottom: 3%;
+        padding-top: 1%;
+    } 
+}

@@ -1,0 +1,21 @@
+.categories {
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.categories > h3 {
+    margin-top: 0px;
+    margin-left: 15%;   
+}
+.categories > p{
+    margin-left: 15%;
+    color:rgb(95, 97, 99);
+    margin-top: 0.75%;
+}
+
+@media (max-width:600px) {
+     .categories {
+         display: none;
+     }
+}

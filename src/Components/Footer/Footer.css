@@ -1,0 +1,23 @@
+.footerWrapper {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.footerWrapper > div > h3{
+    margin-bottom: 0px;
+}
+
+.footerWrapper > div > p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+@media (max-width:600px) {
+    .footerWrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+}
